@@ -1,5 +1,5 @@
 // JavaScript Document
-$(function(){
+window.onload=function(){
 	if($(window).width()>=768)
 		{
 			var ht1=($(".auto").eq(0).height()-$(".text").eq(0).height())/2 + "px";
@@ -21,5 +21,5 @@ $(function(){
 				$(".text").eq(1).css("marginTop","30px");
 			}
 	});
-});
+};
 	
